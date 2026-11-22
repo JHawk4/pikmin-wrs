@@ -5,7 +5,7 @@
   {
    "user": "96_Leaf",
    "rank": 1,
-   "rps": 28896,
+   "rps": 28915,
    "score": 2555,
    "boards": 9,
    "date": "2026-11-17T23:13:32.000000Z"
@@ -13,7 +13,7 @@
   {
    "user": "6harapikumin",
    "rank": 2,
-   "rps": 16659,
+   "rps": 16676,
    "score": 2410,
    "boards": 9,
    "date": "2026-11-15T14:08:41.000000Z"
@@ -21,7 +21,7 @@
   {
    "user": "iid01",
    "rank": 3,
-   "rps": 26997,
+   "rps": 27198,
    "score": 2268,
    "boards": 8,
    "date": "2026-11-19T23:22:51.000000Z"
@@ -29,7 +29,7 @@
   {
    "user": "albut3",
    "rank": 4,
-   "rps": 22950,
+   "rps": 23132,
    "score": 2078,
    "boards": 7,
    "date": "2026-11-19T23:13:39.000000Z"
@@ -61,7 +61,7 @@
   {
    "user": "hocotate",
    "rank": 8,
-   "rps": 11000,
+   "rps": 11019,
    "score": 1799,
    "boards": 6,
    "date": "2026-11-22T06:40:11.000000Z"
@@ -107,8 +107,16 @@
    "date": "2026-11-04T15:04:20.000000Z"
   },
   {
-   "user": "April_lapispik",
+   "user": "SaSa_Nae",
    "rank": 14,
+   "rps": 7389,
+   "score": 907,
+   "boards": 3,
+   "date": "2026-11-22T12:52:56.000000Z"
+  },
+  {
+   "user": "April_lapispik",
+   "rank": 15,
    "rps": 4863,
    "score": 854,
    "boards": 3,
@@ -116,7 +124,7 @@
   },
   {
    "user": "pikitto",
-   "rank": 15,
+   "rank": 16,
    "rps": 8184,
    "score": 818,
    "boards": 4,
@@ -124,7 +132,7 @@
   },
   {
    "user": "shiragawatanuki",
-   "rank": 16,
+   "rank": 17,
    "rps": 5885,
    "score": 799,
    "boards": 3,
@@ -132,15 +140,15 @@
   },
   {
    "user": "SiroganeRuby",
-   "rank": 17,
-   "rps": 3008,
+   "rank": 18,
+   "rps": 3026,
    "score": 741,
    "boards": 2,
    "date": "2026-11-19T10:02:43.000000Z"
   },
   {
    "user": "bi-guruken",
-   "rank": 18,
+   "rank": 19,
    "rps": 4411,
    "score": 680,
    "boards": 3,
@@ -148,7 +156,7 @@
   },
   {
    "user": "Mutou_p2pw",
-   "rank": 19,
+   "rank": 20,
    "rps": 5544,
    "score": 566,
    "boards": 2,
@@ -156,7 +164,7 @@
   },
   {
    "user": "Abebe0311",
-   "rank": 20,
+   "rank": 21,
    "rps": 4073,
    "score": 525,
    "boards": 2,
@@ -164,19 +172,11 @@
   },
   {
    "user": "Lotus",
-   "rank": 21,
+   "rank": 22,
    "rps": 5483,
    "score": 412,
    "boards": 2,
    "date": "2026-11-10T04:57:13.000000Z"
-  },
-  {
-   "user": "SaSa_Nae",
-   "rank": 22,
-   "rps": 5253,
-   "score": 385,
-   "boards": 2,
-   "date": "2026-11-22T03:47:50.000000Z"
   },
   {
    "user": "pizza_dx",
