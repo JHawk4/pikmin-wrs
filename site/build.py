@@ -125,6 +125,7 @@ TAS = json.loads((SRC / "tas.json").read_text(encoding="utf-8"))
 SEEDS = json.loads((SRC / "seeds.json").read_text(encoding="utf-8")) if (SRC / "seeds.json").exists() else {}
 SEED_BY_POST = {r["post"]: r for r in SEEDS.get("pikmin2", [])}
 SEED_DOC = SEEDS.get("_doc", "")
+SEED_DOC_LAYOUT = SEEDS.get("_doc_layout", "")
 
 
 def cavegen3_url(sublevel, seed):
@@ -757,7 +758,7 @@ def seed_block(t: T, k, pre):
         r = SEED_BY_POST.get(p.get("id"))
         if r and r.get("floors"):
             return (f'<p class="vidcap">{e(t.s("layout_seeds"))}: {seed_links(r)} '
-                    f'<span class="small">({e(t.s("seed_how_short"))} <a href="{pre}seeds.html">{e(t.s("more_info"))}</a>)</span></p>')
+                    f'<span class="small">({e((r.get("how_short") or {}).get(t.lang) or t.s("seed_how_short"))} <a href="{pre}seeds.html">{e(t.s("more_info"))}</a>)</span></p>')
     return ""
 
 
@@ -896,7 +897,10 @@ def seeds_page(t: T):
     intro = t.s("seeds_intro")
     parts = [f"<h1>{e(t.s('seeds_title'))}</h1><p>{e(intro)}</p>"]
     if SEED_DOC:
-        parts.append(f'<p class="small"><a href="{e(SEED_DOC)}">{e(t.s("seeds_method"))}</a></p>')
+        links = [f'<a href="{e(SEED_DOC)}">{e(t.s("seeds_method"))}</a>']
+        if SEED_DOC_LAYOUT:
+            links.append(f'<a href="{e(SEED_DOC_LAYOUT)}">{e(t.s("seeds_method_layout"))}</a>')
+        parts.append(f'<p class="small">{" · ".join(links)}</p>')
     rows = []
     for rule, sid in (cat["boards"] if cat else []):
         k = bkey(rule, sid)
