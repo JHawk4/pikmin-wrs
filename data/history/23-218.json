@@ -167,6 +167,18 @@
    "console": 2,
    "comment": "2F難しいですね",
    "tie": true
+  },
+  {
+   "id": 20633,
+   "uid": 315829160,
+   "user": "Bl6AltMzq5Jx4aM",
+   "score": 53947,
+   "date": "2026-11-24T14:26:22.000000Z",
+   "video": "https://youtu.be/vi_tDTx0WQw?si=Itib4XzS-frGgFa3",
+   "img": "",
+   "console": 2,
+   "comment": "音ズレごめんなさい",
+   "tie": false
   }
  ],
  "lower_is_better": false,
