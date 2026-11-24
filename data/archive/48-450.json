@@ -149,6 +149,26 @@
    "video": "",
    "img": "20261119-080109-8794114505.jpg",
    "comment": "コメントなし"
+  },
+  {
+   "id": 20628,
+   "user": "iid01",
+   "score": 384,
+   "date": "2026-11-23T12:58:19.000000Z",
+   "console": 4,
+   "video": "https://www.youtube.com/watch?v=6RLdh6-NtvQ",
+   "img": "",
+   "comment": "コメントなし"
+  },
+  {
+   "id": 20630,
+   "user": "SiroganeRuby",
+   "score": 337,
+   "date": "2026-11-23T15:15:54.000000Z",
+   "console": 4,
+   "video": "",
+   "img": "",
+   "comment": "コメントなし"
   }
  ]
 }
