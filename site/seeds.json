@@ -195,6 +195,30 @@
    "validation": "confirmed by the site owner"
   },
   {
+   "post": 17522,
+   "rule": 22,
+   "stage": 221,
+   "floors": [
+    {
+     "sublevel": "CH21-2",
+     "seed": "0x1EE7B33D",
+     "verified": true
+    }
+   ],
+   "verified": true,
+   "method": "layout",
+   "how": {
+    "en": "cave layout seen in the video, matched in CaveGen3 (confirmed)",
+    "ja": "動画に映る地形をCaveGen3と照合（確認済み）"
+   },
+   "how_short": {
+    "en": "matched to the cave layout seen in the video",
+    "ja": "動画に映る地形と照合"
+   },
+   "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
+   "validation": "floor 2 only (the video starts on floor 2); re-checked on gameplay: the big withered plants and the geyser sit where this layout puts them"
+  },
+  {
    "post": 17612,
    "rule": 22,
    "stage": 224,
@@ -358,10 +382,6 @@
   "219": {
    "en": "the video does not pin it down (several layouts fit)",
    "ja": "動画から一つに絞れません（複数の候補）"
-  },
-  "221": {
-   "en": "the video does not show the stage select",
-   "ja": "動画にステージ選択画面がありません"
   },
   "222": {
    "en": "the video does not pin it down (several layouts fit)",
