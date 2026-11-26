@@ -95,6 +95,30 @@
    "validation": "re-checked on gameplay: the treasures sit in the predicted arms"
   },
   {
+   "post": 18935,
+   "rule": 22,
+   "stage": 216,
+   "floors": [
+    {
+     "sublevel": "CH16-1",
+     "seed": "0x785B61C7",
+     "verified": true
+    }
+   ],
+   "verified": true,
+   "method": "layout",
+   "how": {
+    "en": "cave layout seen in the video, matched in CaveGen3 (confirmed)",
+    "ja": "動画に映る地形をCaveGen3と照合（確認済み）"
+   },
+   "how_short": {
+    "en": "matched to the cave layout seen in the video",
+    "ja": "動画に映る地形と照合"
+   },
+   "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
+   "validation": "re-checked: the Giant Breadbug starts where this layout puts it; the dive read one draw earlier does not fit"
+  },
+  {
    "post": 18495,
    "rule": 21,
    "stage": 220,
@@ -203,10 +227,6 @@
    "ja": "読み取りましたが結果画面で確認できないため非公開"
   },
   "215": {
-   "en": "read, but not confirmed by a results screen (withheld)",
-   "ja": "読み取りましたが結果画面で確認できないため非公開"
-  },
-  "216": {
    "en": "read, but not confirmed by a results screen (withheld)",
    "ja": "読み取りましたが結果画面で確認できないため非公開"
   },

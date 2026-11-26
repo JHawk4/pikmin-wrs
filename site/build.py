@@ -128,15 +128,24 @@ SEED_DOC = SEEDS.get("_doc", "")
 SEED_DOC_LAYOUT = SEEDS.get("_doc_layout", "")
 
 
-def cavegen3_url(sublevel, seed):
-    return f"https://jhawk4.github.io/CaveGen3/?sublevel=pikmin2:{sublevel}&seed={int(seed, 16) & 0x7FFFFFFF:08X}"
+def seed_text(f):
+    """GameCube/Wii seeds in 31 bits (bit 31 never reaches rand()); Switch (Pikmin 2 HD, musl
+    64-bit LCG) seeds in all 16 hex digits."""
+    if f.get("rng") == "switch":
+        return f"{int(f['seed'], 16) & 0xFFFFFFFFFFFFFFFF:016X}"
+    return f"{int(f['seed'], 16) & 0x7FFFFFFF:08X}"
+
+
+def cavegen3_url(f):
+    url = f"https://jhawk4.github.io/CaveGen3/?sublevel=pikmin2:{f['sublevel']}&seed={seed_text(f)}"
+    return url + "&rng=switch" if f.get("rng") == "switch" else url
 
 
 def seed_links(r):
     out = []
     for f in r.get("floors", []):
-        out.append(f'<a href="{cavegen3_url(f["sublevel"], f["seed"])}"><span class="num">{e(f["sublevel"])} '
-                   f'{int(f["seed"], 16) & 0x7FFFFFFF:08X}</span></a>')
+        out.append(f'<a href="{e(cavegen3_url(f))}"><span class="num">{e(f["sublevel"])} '
+                   f'{seed_text(f)}</span></a>')
     return " · ".join(out)
 
 
