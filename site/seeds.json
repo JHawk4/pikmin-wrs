@@ -68,21 +68,21 @@
     {
      "sublevel": "CH4-1",
      "seed": "0x2012DD6A",
-     "verified": false
+     "verified": true
     }
    ],
-   "verified": false,
+   "verified": true,
    "method": "layout",
    "how": {
-    "en": "cave layout seen in the video, matched in CaveGen3 (strong match, not yet confirmed)",
-    "ja": "動画に映る地形をCaveGen3と照合（有力・未確認）"
+    "en": "cave layout seen in the video, matched in CaveGen3 (confirmed)",
+    "ja": "動画に映る地形をCaveGen3と照合（確認済み）"
    },
    "how_short": {
     "en": "matched to the cave layout seen in the video",
     "ja": "動画に映る地形と照合"
    },
    "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
-   "validation": "strong match on one frame, not yet confirmed: the plants, gate and treasure fit, but the RNG use it implies is unusually high"
+   "validation": "re-checked on a wide gameplay frame: the clovers, the broken gate and the geyser sit where this layout puts them"
   },
   {
    "post": 18339,
