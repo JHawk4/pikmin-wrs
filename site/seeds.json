@@ -66,6 +66,11 @@
    "stage": 206,
    "floors": [
     {
+     "sublevel": "CH6-1",
+     "seed": "0x41CB4877",
+     "verified": true
+    },
+    {
      "sublevel": "CH6-2",
      "seed": "0x56E9458C",
      "verified": true
@@ -82,7 +87,7 @@
     "ja": "動画に映る地形と照合"
    },
    "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
-   "validation": "floor 2; re-checked on gameplay: the Queen Candypop, both blowhogs and the exit geyser are in the room this layout puts them"
+   "validation": "re-checked on gameplay: floor 1's eggs, Key, Candypops and hole, and floor 2's Candypop, blowhogs and geyser sit where these layouts put them"
   },
   {
    "post": 19423,
