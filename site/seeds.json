@@ -11,6 +11,11 @@
      "sublevel": "CH2-1",
      "seed": "0x29334AE5",
      "verified": true
+    },
+    {
+     "sublevel": "CH2-2",
+     "seed": "0x6210E6DD",
+     "verified": true
     }
    ],
    "verified": true,
@@ -24,7 +29,7 @@
     "ja": "動画に映る地形と照合"
    },
    "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
-   "validation": "re-checked on gameplay: the hole and the plants around it sit where this layout puts them"
+   "validation": "re-checked on gameplay: floor 1's hole room and floor 2's geyser beside the pod match these layouts"
   },
   {
    "post": 19062,
@@ -279,6 +284,30 @@
    },
    "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
    "validation": "re-checked on early gameplay: the green treasure and the pot lie where this layout puts them; the near-identical seed 9 draws away does not fit"
+  },
+  {
+   "post": 18930,
+   "rule": 21,
+   "stage": 230,
+   "floors": [
+    {
+     "sublevel": "CH30-1",
+     "seed": "0x29055A01",
+     "verified": false
+    }
+   ],
+   "verified": false,
+   "method": "layout",
+   "how": {
+    "en": "cave layout seen in the video, matched in CaveGen3 (strong match, not yet confirmed)",
+    "ja": "動画に映る地形をCaveGen3と照合（有力・未確認）"
+   },
+   "how_short": {
+    "en": "matched to the cave layout seen in the video",
+    "ja": "動画に映る地形と照合"
+   },
+   "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
+   "validation": "strong match, not yet confirmed: the Pikmin dive and the rooms and enemies seen agree, but no precise layout detail has been checked yet"
   }
  ],
  "unread": {
@@ -349,10 +378,6 @@
   "227": {
    "en": "the video does not pin it down (several layouts fit)",
    "ja": "動画から一つに絞れません（複数の候補）"
-  },
-  "230": {
-   "en": "read, but not confirmed by a results screen (withheld)",
-   "ja": "読み取りましたが結果画面で確認できないため非公開"
   }
  },
  "_doc_layout": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
