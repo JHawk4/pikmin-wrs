@@ -26,6 +26,30 @@
    "validation": "re-checked on the fly-over: Bulborbs fall where this layout puts them"
   },
   {
+   "post": 20634,
+   "rule": 22,
+   "stage": 209,
+   "floors": [
+    {
+     "sublevel": "CH9-1",
+     "seed": "0x4FD8316B",
+     "verified": true
+    }
+   ],
+   "verified": true,
+   "method": "digits",
+   "how": {
+    "en": "read from the on-screen digits and confirmed by the cave layout",
+    "ja": "画面の数字から読み取り、地形で確認済み"
+   },
+   "how_short": {
+    "en": "read from the video's on-screen digits",
+    "ja": "動画の数字から読み取り"
+   },
+   "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
+   "validation": "re-checked on gameplay: the key room in front of the pod and its treasures; the other seeds the digits allow do not fit"
+  },
+  {
    "post": 17703,
    "rule": 22,
    "stage": 210,
@@ -165,6 +189,30 @@
    "validation": "re-checked on gameplay: enemies, treasures and geyser in the predicted rooms"
   },
   {
+   "post": 18629,
+   "rule": 21,
+   "stage": 226,
+   "floors": [
+    {
+     "sublevel": "CH26-1",
+     "seed": "0x4CA82519",
+     "verified": true
+    }
+   ],
+   "verified": true,
+   "method": "layout",
+   "how": {
+    "en": "cave layout seen in the video, matched in CaveGen3 (confirmed)",
+    "ja": "動画に映る地形をCaveGen3と照合（確認済み）"
+   },
+   "how_short": {
+    "en": "matched to the cave layout seen in the video",
+    "ja": "動画に映る地形と照合"
+   },
+   "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
+   "validation": "re-checked: the floor-1 hole sits in the two-lane arm where this layout puts it; the seed one draw earlier puts it elsewhere"
+  },
+  {
    "post": 18107,
    "rule": 21,
    "stage": 228,
@@ -214,10 +262,6 @@
    "en": "the video does not pin it down (several layouts fit)",
    "ja": "動画から一つに絞れません（複数の候補）"
   },
-  "209": {
-   "en": "the video does not pin it down (several layouts fit)",
-   "ja": "動画から一つに絞れません（複数の候補）"
-  },
   "211": {
    "en": "the video does not pin it down (several layouts fit)",
    "ja": "動画から一つに絞れません（複数の候補）"
@@ -257,10 +301,6 @@
   "225": {
    "en": "the video does not pin it down (several layouts fit)",
    "ja": "動画から一つに絞れません（複数の候補）"
-  },
-  "226": {
-   "en": "too few Pikmin jump in to pin it down",
-   "ja": "飛び込むピクミンが少なく絞り込めません"
   },
   "227": {
    "en": "the video does not pin it down (several layouts fit)",
