@@ -61,6 +61,30 @@
    "validation": "re-checked on gameplay: floor 1's hole room and floor 2's geyser beside the pod match these layouts"
   },
   {
+   "post": 18601,
+   "rule": 22,
+   "stage": 204,
+   "floors": [
+    {
+     "sublevel": "CH4-1",
+     "seed": "0x2012DD6A",
+     "verified": false
+    }
+   ],
+   "verified": false,
+   "method": "layout",
+   "how": {
+    "en": "cave layout seen in the video, matched in CaveGen3 (strong match, not yet confirmed)",
+    "ja": "動画に映る地形をCaveGen3と照合（有力・未確認）"
+   },
+   "how_short": {
+    "en": "matched to the cave layout seen in the video",
+    "ja": "動画に映る地形と照合"
+   },
+   "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
+   "validation": "strong match on one frame, not yet confirmed: the plants, gate and treasure fit, but the RNG use it implies is unusually high"
+  },
+  {
    "post": 18339,
    "rule": 21,
    "stage": 206,
@@ -423,10 +447,6 @@
  ],
  "unread": {
   "203": {
-   "en": "the video does not pin it down (several layouts fit)",
-   "ja": "動画から一つに絞れません（複数の候補）"
-  },
-  "204": {
    "en": "the video does not pin it down (several layouts fit)",
    "ja": "動画から一つに絞れません（複数の候補）"
   },
