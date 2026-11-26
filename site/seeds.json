@@ -133,6 +133,11 @@
     {
      "sublevel": "CH12-1",
      "seed": "0x674C7FD3"
+    },
+    {
+     "sublevel": "CH12-2",
+     "seed": "0x661950CA",
+     "verified": true
     }
    ],
    "how": {
@@ -146,7 +151,7 @@
    "method": "layout",
    "verified": true,
    "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
-   "validation": "re-checked on floor-1 gameplay: key, trough room, gate and hole"
+   "validation": "re-checked on gameplay: floor 1's key route and floor 2's gated key and the hole beside the pod match these layouts"
   },
   {
    "post": 18924,
