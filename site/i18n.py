@@ -83,6 +83,8 @@ LINKS = [
     ("Pikipedia (wiki)", "Pikipedia（英語wiki）", "https://www.pikminwiki.com/"),
     ("Pikmin Technical Knowledge Base", "Pikmin TKB（技術wiki）", "https://pikmintkb.com/"),
     ("CaveGen", "CaveGen", "https://github.com/JHawk4/CaveGen"),
+    ("CaveGen3 (cave viewer)", "CaveGen3（洞窟ビューア）", "https://jhawk4.github.io/CaveGen3/"),
+    ("Pikmin 2 Layout Ledger", "ピクミン2 地形台帳", "https://jhawk4.github.io/pikmin2-layout-ledger/"),
     ("Caveripper", "Caveripper", "https://github.com/mayabyte/caveripper"),
     ("Pikmin 2 decompilation", "ピクミン2 逆コンパイル", "https://github.com/projectPiki/pikmin2"),
 ]
@@ -123,6 +125,9 @@ STR = {
     "seed_how": {"en": "Read from", "ja": "読み取り元"},
     "seed_how_short": {"en": "read automatically from the video", "ja": "動画から自動で読み取り"},
     "seed_unknown": {"en": "not read yet", "ja": "未読み取り"},
+    "ledger_name": {"en": "Pikmin 2 Layout Ledger", "ja": "ピクミン2 地形台帳"},
+    "seeds_related": {"en": "Related: {cg3}, the in-browser cave generator these seeds link to, and the {ledger}, which recovers layout seeds from speedrun videos and rates how lucky each layout is.",
+                      "ja": "関連：各シードのリンク先であるブラウザ版洞窟ジェネレーター{cg3}、スピードラン動画から地形シードを求めて地形の運を評価する{ledger}。"},
     "more_info": {"en": "details", "ja": "詳細"},
     "site": {"en": "Pikmin Score Records", "ja": "ピクミン スコア記録"},
     "home": {"en": "Home", "ja": "ホーム"},

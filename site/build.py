@@ -910,6 +910,9 @@ def seeds_page(t: T):
         if SEED_DOC_LAYOUT:
             links.append(f'<a href="{e(SEED_DOC_LAYOUT)}">{e(t.s("seeds_method_layout"))}</a>')
         parts.append(f'<p class="small">{" · ".join(links)}</p>')
+    parts.append('<p class="small">' + t.s(
+        "seeds_related", cg3='<a href="https://jhawk4.github.io/CaveGen3/">CaveGen3</a>',
+        ledger=f'<a href="https://jhawk4.github.io/pikmin2-layout-ledger/">{e(t.s("ledger_name"))}</a>') + "</p>")
     rows = []
     for rule, sid in (cat["boards"] if cat else []):
         k = bkey(rule, sid)
