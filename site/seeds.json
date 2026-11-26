@@ -13,16 +13,17 @@
     }
    ],
    "how": {
-    "en": "cave layout seen in the video, matched in CaveGen3 (strong match, not yet confirmed)",
-    "ja": "動画に映る地形をCaveGen3と照合（有力・未確認）"
+    "en": "cave layout seen in the video, matched in CaveGen3 (confirmed)",
+    "ja": "動画に映る地形をCaveGen3と照合（確認済み）"
    },
    "how_short": {
     "en": "matched to the cave layout seen in the video",
     "ja": "動画に映る地形と照合"
    },
    "method": "layout",
-   "verified": false,
-   "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md"
+   "verified": true,
+   "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
+   "validation": "re-checked on the fly-over: Bulborbs fall where this layout puts them"
   },
   {
    "post": 17703,
@@ -44,7 +45,8 @@
    },
    "method": "layout",
    "verified": true,
-   "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md"
+   "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
+   "validation": "re-checked: the only other fitting family is ruled out by a plant's size"
   },
   {
    "post": 20355,
@@ -57,16 +59,17 @@
     }
    ],
    "how": {
-    "en": "cave layout seen in the video, matched in CaveGen3 (strong match, not yet confirmed)",
-    "ja": "動画に映る地形をCaveGen3と照合（有力・未確認）"
+    "en": "cave layout seen in the video, matched in CaveGen3 (confirmed)",
+    "ja": "動画に映る地形をCaveGen3と照合（確認済み）"
    },
    "how_short": {
     "en": "matched to the cave layout seen in the video",
     "ja": "動画に映る地形と照合"
    },
    "method": "layout",
-   "verified": false,
-   "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md"
+   "verified": true,
+   "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
+   "validation": "re-checked on floor-1 gameplay: key, trough room, gate and hole"
   },
   {
    "post": 18924,
@@ -79,16 +82,17 @@
     }
    ],
    "how": {
-    "en": "cave layout seen in the video, matched in CaveGen3 (strong match, not yet confirmed)",
-    "ja": "動画に映る地形をCaveGen3と照合（有力・未確認）"
+    "en": "cave layout seen in the video, matched in CaveGen3 (confirmed)",
+    "ja": "動画に映る地形をCaveGen3と照合（確認済み）"
    },
    "how_short": {
     "en": "matched to the cave layout seen in the video",
     "ja": "動画に映る地形と照合"
    },
    "method": "layout",
-   "verified": false,
-   "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md"
+   "verified": true,
+   "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
+   "validation": "re-checked on gameplay: the treasures sit in the predicted arms"
   },
   {
    "post": 18495,
@@ -110,7 +114,8 @@
    },
    "method": "layout",
    "verified": true,
-   "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md"
+   "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
+   "validation": "confirmed by the site owner"
   },
   {
    "post": 17612,
@@ -123,16 +128,17 @@
     }
    ],
    "how": {
-    "en": "cave layout seen in the video, matched in CaveGen3 (strong match, not yet confirmed)",
-    "ja": "動画に映る地形をCaveGen3と照合（有力・未確認）"
+    "en": "cave layout seen in the video, matched in CaveGen3 (confirmed)",
+    "ja": "動画に映る地形をCaveGen3と照合（確認済み）"
    },
    "how_short": {
     "en": "matched to the cave layout seen in the video",
     "ja": "動画に映る地形と照合"
    },
    "method": "layout",
-   "verified": false,
-   "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md"
+   "verified": true,
+   "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
+   "validation": "re-checked on gameplay: enemies, treasures and geyser in the predicted rooms"
   },
   {
    "post": 18107,
@@ -151,7 +157,8 @@
     "en": "stage-select dive, confirmed by the previous results roll",
     "ja": "ステージ選択の飛び込み（直前の結果画面で確認済み）"
    },
-   "verified": true
+   "verified": true,
+   "validation": "re-checked: neighbouring seeds put the geyser by the pod, the video does not"
   }
  ],
  "unread": {
@@ -248,5 +255,6 @@
    "ja": "読み取りましたが結果画面で確認できないため非公開"
   }
  },
- "_doc_layout": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md"
+ "_doc_layout": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
+ "_validation": "Every seed was re-checked independently with a different technique; see the verdicts in the ch-seed-hunt notes and docs/validator/ (pikmin2-layout-ledger, branch ch-seed-hunt)."
 }
