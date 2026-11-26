@@ -61,6 +61,30 @@
    "validation": "re-checked on gameplay: floor 1's hole room and floor 2's geyser beside the pod match these layouts"
   },
   {
+   "post": 18339,
+   "rule": 21,
+   "stage": 206,
+   "floors": [
+    {
+     "sublevel": "CH6-2",
+     "seed": "0x56E9458C",
+     "verified": true
+    }
+   ],
+   "verified": true,
+   "method": "layout",
+   "how": {
+    "en": "cave layout seen in the video, matched in CaveGen3 (confirmed)",
+    "ja": "動画に映る地形をCaveGen3と照合（確認済み）"
+   },
+   "how_short": {
+    "en": "matched to the cave layout seen in the video",
+    "ja": "動画に映る地形と照合"
+   },
+   "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
+   "validation": "floor 2; re-checked on gameplay: the Queen Candypop, both blowhogs and the exit geyser are in the room this layout puts them"
+  },
+  {
    "post": 19423,
    "rule": 21,
    "stage": 207,
@@ -404,10 +428,6 @@
   "205": {
    "en": "the video does not pin it down (several layouts fit)",
    "ja": "動画から一つに絞れません（複数の候補）"
-  },
-  "206": {
-   "en": "too few Pikmin jump in to pin it down",
-   "ja": "飛び込むピクミンが少なく絞り込めません"
   },
   "211": {
    "en": "the video does not pin it down (several layouts fit)",
