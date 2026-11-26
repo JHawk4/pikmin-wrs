@@ -3,6 +3,30 @@
  "_doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/challenge-mode-seeds-37abaa/docs/challenge-mode-seeds.md",
  "pikmin2": [
   {
+   "post": 17765,
+   "rule": 21,
+   "stage": 202,
+   "floors": [
+    {
+     "sublevel": "CH2-1",
+     "seed": "0x29334AE5",
+     "verified": true
+    }
+   ],
+   "verified": true,
+   "method": "layout",
+   "how": {
+    "en": "cave layout seen in the video, matched in CaveGen3 (confirmed)",
+    "ja": "動画に映る地形をCaveGen3と照合（確認済み）"
+   },
+   "how_short": {
+    "en": "matched to the cave layout seen in the video",
+    "ja": "動画に映る地形と照合"
+   },
+   "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
+   "validation": "re-checked on gameplay: the hole and the plants around it sit where this layout puts them"
+  },
+  {
    "post": 19062,
    "rule": 22,
    "stage": 208,
@@ -231,14 +255,34 @@
    },
    "verified": true,
    "validation": "re-checked: neighbouring seeds put the geyser by the pod, the video does not"
+  },
+  {
+   "post": 18050,
+   "rule": 21,
+   "stage": 229,
+   "floors": [
+    {
+     "sublevel": "CH29-1",
+     "seed": "0x5FE92C09",
+     "verified": true
+    }
+   ],
+   "verified": true,
+   "method": "layout",
+   "how": {
+    "en": "cave layout seen in the video, matched in CaveGen3 (confirmed)",
+    "ja": "動画に映る地形をCaveGen3と照合（確認済み）"
+   },
+   "how_short": {
+    "en": "matched to the cave layout seen in the video",
+    "ja": "動画に映る地形と照合"
+   },
+   "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
+   "validation": "re-checked on early gameplay: the green treasure and the pot lie where this layout puts them; the near-identical seed 9 draws away does not fit"
   }
  ],
  "unread": {
   "201": {
-   "en": "read, but not confirmed by a results screen (withheld)",
-   "ja": "読み取りましたが結果画面で確認できないため非公開"
-  },
-  "202": {
    "en": "read, but not confirmed by a results screen (withheld)",
    "ja": "読み取りましたが結果画面で確認できないため非公開"
   },
@@ -305,10 +349,6 @@
   "227": {
    "en": "the video does not pin it down (several layouts fit)",
    "ja": "動画から一つに絞れません（複数の候補）"
-  },
-  "229": {
-   "en": "read, but not confirmed by a results screen (withheld)",
-   "ja": "読み取りましたが結果画面で確認できないため非公開"
   },
   "230": {
    "en": "read, but not confirmed by a results screen (withheld)",
