@@ -32,6 +32,30 @@
    "validation": "re-checked on gameplay: floor 1's hole room and floor 2's geyser beside the pod match these layouts"
   },
   {
+   "post": 19423,
+   "rule": 21,
+   "stage": 207,
+   "floors": [
+    {
+     "sublevel": "CH7-2",
+     "seed": "0x6390B56D",
+     "verified": true
+    }
+   ],
+   "verified": true,
+   "method": "layout",
+   "how": {
+    "en": "cave layout seen in the video, matched in CaveGen3 (confirmed)",
+    "ja": "動画に映る地形をCaveGen3と照合（確認済み）"
+   },
+   "how_short": {
+    "en": "matched to the cave layout seen in the video",
+    "ja": "動画に映る地形と照合"
+   },
+   "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
+   "validation": "floor 2; re-checked on gameplay: the hex nut and the Fiery Blowhog beside it sit where this layout puts them"
+  },
+  {
    "post": 19062,
    "rule": 22,
    "stage": 208,
@@ -354,10 +378,6 @@
   "206": {
    "en": "too few Pikmin jump in to pin it down",
    "ja": "飛び込むピクミンが少なく絞り込めません"
-  },
-  "207": {
-   "en": "the video does not pin it down (several layouts fit)",
-   "ja": "動画から一つに絞れません（複数の候補）"
   },
   "211": {
    "en": "the video does not pin it down (several layouts fit)",
