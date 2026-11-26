@@ -8,6 +8,11 @@
    "stage": 201,
    "floors": [
     {
+     "sublevel": "CH1-1",
+     "seed": "0x502E433D",
+     "verified": true
+    },
+    {
      "sublevel": "CH1-2",
      "seed": "0x65656A7B",
      "verified": false
@@ -24,7 +29,7 @@
     "ja": "動画に映る地形と照合"
    },
    "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
-   "validation": "floor 2 only; the layout is confirmed, but seed 21A533FE (5 draws away) gives exactly the same layout, so the exact seed is one of the two"
+   "validation": "floor 1 is confirmed by the plants seen in gameplay; floor 2's layout is confirmed, but seed 21A533FE (5 draws away) gives exactly the same floor-2 layout"
   },
   {
    "post": 17765,
