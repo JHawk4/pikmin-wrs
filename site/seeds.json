@@ -3,6 +3,30 @@
  "_doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/challenge-mode-seeds-37abaa/docs/challenge-mode-seeds.md",
  "pikmin2": [
   {
+   "post": 19640,
+   "rule": 21,
+   "stage": 201,
+   "floors": [
+    {
+     "sublevel": "CH1-2",
+     "seed": "0x65656A7B",
+     "verified": false
+    }
+   ],
+   "verified": false,
+   "method": "layout",
+   "how": {
+    "en": "cave layout seen in the video, matched in CaveGen3 (strong match, not yet confirmed)",
+    "ja": "動画に映る地形をCaveGen3と照合（有力・未確認）"
+   },
+   "how_short": {
+    "en": "matched to the cave layout seen in the video",
+    "ja": "動画に映る地形と照合"
+   },
+   "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
+   "validation": "floor 2 only; the layout is confirmed, but seed 21A533FE (5 draws away) gives exactly the same layout, so the exact seed is one of the two"
+  },
+  {
    "post": 17765,
    "rule": 21,
    "stage": 202,
@@ -364,10 +388,6 @@
   }
  ],
  "unread": {
-  "201": {
-   "en": "read, but not confirmed by a results screen (withheld)",
-   "ja": "読み取りましたが結果画面で確認できないため非公開"
-  },
   "203": {
    "en": "the video does not pin it down (several layouts fit)",
    "ja": "動画から一つに絞れません（複数の候補）"
