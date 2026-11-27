@@ -148,23 +148,28 @@
    "stage": 207,
    "floors": [
     {
+     "sublevel": "CH7-1",
+     "seed": "0xFF8F613F",
+     "verified": false
+    },
+    {
      "sublevel": "CH7-2",
      "seed": "0x6390B56D",
      "verified": true
     }
    ],
-   "verified": true,
+   "verified": false,
    "method": "layout",
    "how": {
-    "en": "cave layout seen in the video, matched in CaveGen3 (confirmed)",
-    "ja": "動画に映る地形をCaveGen3と照合（確認済み）"
+    "en": "cave layout seen in the video, matched in CaveGen3 (strong match, not yet confirmed)",
+    "ja": "動画に映る地形をCaveGen3と照合（有力・未確認）"
    },
    "how_short": {
     "en": "matched to the cave layout seen in the video",
     "ja": "動画に映る地形と照合"
    },
    "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
-   "validation": "floor 2; re-checked on gameplay: the hex nut and the Fiery Blowhog beside it sit where this layout puts them"
+   "validation": "Floor 2 6390B56D is confirmed. Floor 1 FF8F613F matches the treasures, the Fiery Blowhog and the hole, but the seed 5 draws later (8E49EE12) builds the identical cave, so the exact floor-1 seed cannot be told from the video."
   },
   {
    "post": 19062,
@@ -412,6 +417,30 @@
    "validation": "re-checked: the floor-1 hole sits in the two-lane arm where this layout puts it; the seed one draw earlier puts it elsewhere"
   },
   {
+   "post": 19250,
+   "rule": 22,
+   "stage": 227,
+   "floors": [
+    {
+     "sublevel": "CH27-1",
+     "seed": "0x17864AAB",
+     "verified": false
+    }
+   ],
+   "verified": false,
+   "method": "layout",
+   "how": {
+    "en": "cave layout seen in the video, matched in CaveGen3 (strong match, not yet confirmed)",
+    "ja": "動画に映る地形をCaveGen3と照合（有力・未確認）"
+   },
+   "how_short": {
+    "en": "matched to the cave layout seen in the video",
+    "ja": "動画に映る地形と照合"
+   },
+   "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
+   "validation": "Read from the Pikmin dive and consistent with the cave layout (the geyser sits right beside the pod, as in the video), but too few layout details are visible to rule out other seeds."
+  },
+  {
    "post": 18107,
    "rule": 21,
    "stage": 228,
@@ -518,10 +547,6 @@
    "ja": "記録に動画がありません"
   },
   "225": {
-   "en": "the video does not pin it down (several layouts fit)",
-   "ja": "動画から一つに絞れません（複数の候補）"
-  },
-  "227": {
    "en": "the video does not pin it down (several layouts fit)",
    "ja": "動画から一つに絞れません（複数の候補）"
   }
