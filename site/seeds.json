@@ -424,21 +424,21 @@
     {
      "sublevel": "CH27-1",
      "seed": "0x17864AAB",
-     "verified": false
+     "verified": true
     }
    ],
-   "verified": false,
+   "verified": true,
    "method": "layout",
    "how": {
-    "en": "cave layout seen in the video, matched in CaveGen3 (strong match, not yet confirmed)",
-    "ja": "動画に映る地形をCaveGen3と照合（有力・未確認）"
+    "en": "cave layout seen in the video, matched in CaveGen3 (confirmed)",
+    "ja": "動画に映る地形をCaveGen3と照合（確認済み）"
    },
    "how_short": {
     "en": "matched to the cave layout seen in the video",
     "ja": "動画に映る地形と照合"
    },
    "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
-   "validation": "Read from the Pikmin dive and consistent with the cave layout (the geyser sits right beside the pod, as in the video), but too few layout details are visible to rule out other seeds."
+   "validation": "Read from the Pikmin dive and confirmed by the cave layout: the Gyroid Bust and geyser beside the pod, the blue and red marbles, and four falling-rock spots all line up with this seed under one camera fit of the opening fly-over, which no sampled rival seed matches as closely."
   },
   {
    "post": 18107,
