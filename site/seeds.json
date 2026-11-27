@@ -492,21 +492,21 @@
     {
      "sublevel": "CH30-1",
      "seed": "0x29055A01",
-     "verified": false
+     "verified": true
     }
    ],
-   "verified": false,
+   "verified": true,
    "method": "layout",
    "how": {
-    "en": "cave layout seen in the video, matched in CaveGen3 (strong match, not yet confirmed)",
-    "ja": "動画に映る地形をCaveGen3と照合（有力・未確認）"
+    "en": "cave layout seen in the video, matched in CaveGen3 (confirmed)",
+    "ja": "動画に映る地形をCaveGen3と照合（確認済み）"
    },
    "how_short": {
     "en": "matched to the cave layout seen in the video",
     "ja": "動画に映る地形と照合"
    },
    "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
-   "validation": "strong match, not yet confirmed: the Pikmin dive and the rooms and enemies seen agree, but no precise layout detail has been checked yet"
+   "validation": "Read from the Pikmin dive and confirmed by the cave layout: the dwarf bulborbs, fire geyser, Hairy Bulborb and Red Bulborb are where this seed puts them, and the player goes down the hole in the middle of the three-exit room, where only a tiny share of seeds put it."
   }
  ],
  "unread": {
