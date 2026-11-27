@@ -117,7 +117,7 @@
   {
    "user": "Mutou_p2pw",
    "rank": 15,
-   "rps": 66197,
+   "rps": 66114,
    "score": 330716,
    "boards": 13,
    "date": "2026-10-09T00:27:45.000000Z"
@@ -235,20 +235,20 @@
    "date": "2021-05-30T00:43:50.000000Z"
   },
   {
-   "user": "koppacha",
+   "user": "pikitto",
    "rank": 30,
+   "rps": 33686,
+   "score": 330289,
+   "boards": 13,
+   "date": "2026-11-27T06:20:11.000000Z"
+  },
+  {
+   "user": "koppacha",
+   "rank": 31,
    "rps": 25292,
    "score": 330281,
    "boards": 13,
    "date": "2026-04-06T19:09:32.000000Z"
-  },
-  {
-   "user": "pikitto",
-   "rank": 31,
-   "rps": 33603,
-   "score": 330278,
-   "boards": 13,
-   "date": "2026-11-24T13:19:33.000000Z"
   },
   {
    "user": "TEL",
