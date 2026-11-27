@@ -243,11 +243,17 @@
    "floors": [
     {
      "sublevel": "CH12-1",
-     "seed": "0x674C7FD3"
+     "seed": "0x674C7FD3",
+     "verified": true
     },
     {
      "sublevel": "CH12-2",
      "seed": "0x661950CA",
+     "verified": true
+    },
+    {
+     "sublevel": "CH12-3",
+     "seed": "0x3998412E",
      "verified": true
     }
    ],
@@ -262,7 +268,7 @@
    "method": "layout",
    "verified": true,
    "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
-   "validation": "re-checked on gameplay: floor 1's key route and floor 2's gated key and the hole beside the pod match these layouts"
+   "validation": "All three floors were independently re-checked against gameplay frames. Floor 3 3998412E: in a frame the finder did not use, the Key spot, the white king and four clovers match, and the one near-twin layout puts a fire geyser where the video shows a black chess piece."
   },
   {
    "post": 18924,
