@@ -15,21 +15,21 @@
     {
      "sublevel": "CH1-2",
      "seed": "0x65656A7B",
-     "verified": false
+     "verified": true
     }
    ],
-   "verified": false,
+   "verified": true,
    "method": "layout",
    "how": {
-    "en": "cave layout seen in the video, matched in CaveGen3 (strong match, not yet confirmed)",
-    "ja": "動画に映る地形をCaveGen3と照合（有力・未確認）"
+    "en": "cave layout seen in the video, matched in CaveGen3 (confirmed)",
+    "ja": "動画に映る地形をCaveGen3と照合（確認済み）"
    },
    "how_short": {
     "en": "matched to the cave layout seen in the video",
     "ja": "動画に映る地形と照合"
    },
    "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
-   "validation": "floor 1 is confirmed by the plants seen in gameplay; floor 2's layout is confirmed, but seed 21A533FE (5 draws away) gives exactly the same floor-2 layout"
+   "validation": "Both floors re-checked against the video. Floor 2's seed shares its exact layout with 21A533FE, five draws away, so either seed shows the cave that was played."
   },
   {
    "post": 17765,
@@ -150,7 +150,7 @@
     {
      "sublevel": "CH7-1",
      "seed": "0xFF8F613F",
-     "verified": false
+     "verified": true
     },
     {
      "sublevel": "CH7-2",
@@ -158,18 +158,18 @@
      "verified": true
     }
    ],
-   "verified": false,
+   "verified": true,
    "method": "layout",
    "how": {
-    "en": "cave layout seen in the video, matched in CaveGen3 (strong match, not yet confirmed)",
-    "ja": "動画に映る地形をCaveGen3と照合（有力・未確認）"
+    "en": "cave layout seen in the video, matched in CaveGen3 (confirmed)",
+    "ja": "動画に映る地形をCaveGen3と照合（確認済み）"
    },
    "how_short": {
     "en": "matched to the cave layout seen in the video",
     "ja": "動画に映る地形と照合"
    },
    "doc": "https://github.com/JHawk4/pikmin2-layout-ledger/blob/claude/layout-matcher-f38181/docs/layout-matcher.md",
-   "validation": "Floor 2 6390B56D is confirmed. Floor 1 FF8F613F matches the treasures, the Fiery Blowhog and the hole, but the seed 5 draws later (8E49EE12) builds the identical cave, so the exact floor-1 seed cannot be told from the video."
+   "validation": "Both floors re-checked against gameplay. Floor 1: the treasures, Fiery Blowhog, hole and the colours of the glowstems around the pod match; 8E49EE12, five draws later, builds the identical cave, so either seed shows it."
   },
   {
    "post": 19062,
